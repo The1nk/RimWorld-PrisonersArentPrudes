@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Prisoners Aren't Prudes</name>
+	<author>The1nk</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>The1nk.PAP</packageId>
+	<description>When a pawn ges arrested, all of their apparel will now be unlocked. In vanilla, the apparel only becomes unlcoked when they're **recruited** or when their apparel's durability drops below 50%. Arresting refugees, guests, praetors, etc wouldn't let you get at their gear .. this fixes that.</description>
+  <modDependencies>
+      <li>
+          <packageId>brrainz.harmony</packageId>
+          <displayName>Harmony</displayName>
+          <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      </li>
+      <li>
+          <packageId>UnlimitedHugs.HugsLib</packageId>
+          <displayName>HugsLib</displayName>
+          <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+          <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+      </li>
+  </modDependencies>
+    <loadAfter>
+        <li>UnlimitedHugs.HugsLib</li>
+        <li>brrainz.harmony</li>
+    </loadAfter>
+</ModMetaData>
